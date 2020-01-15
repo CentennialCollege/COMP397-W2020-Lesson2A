@@ -60,6 +60,8 @@ private:
 	~Game();
 
 	SDL_Window* m_pWindow;
+
+	// TODO: needs to be removed 
 	SDL_Renderer* m_pRenderer;
 
 	int m_currentFrame;
